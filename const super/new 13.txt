@@ -1,0 +1,13 @@
+class array{
+//create a function that 
+//takes array as arg and it should return the sum of the elements in the array
+static int  getsum(int[] values){
+		int sum=0;
+		for(int num:values)sum +=num;
+		return sum;
+		}
+		public static void main(String []args){
+		int result=getsum(new int[]{1,2,3,4,});
+		System.out.println(res);
+		}
+}

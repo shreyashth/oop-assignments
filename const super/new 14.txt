@@ -1,0 +1,22 @@
+class mammal{
+public void display() {
+ System.out.println("im mammal"); }	
+}
+
+}
+class marineanimal {
+public void display() {
+ System.out.println("im marine animal"); }	
+}
+class BlueWhale extends mammal, marineanimal{
+public void display() {
+ System.out.println("im in both");
+
+
+}
+
+
+
+class animal{
+
+}
